@@ -1,0 +1,14 @@
+COMPILING
+==========
+
+Use Embarcadero® C++Builder® XE5 to load the CopyClass.cbproj file.
+
+(Embarcadero® C++Builder® XE5 is available with a free 30-day trial).
+
+Within Embarcadero look at the Menu bar across the top, choose Project,
+
+then "Build CopyClass" from the drop-down menu.
+
+A comiled executable 
+
+You will need to copy lib/scardsyn.dll to the location of the compiled executable for it to correctly execute.

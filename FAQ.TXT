@@ -1,0 +1,28 @@
+FAQ
+=====
+
+1. It does not work?
+   It does work I guarantee, I just stripped out HID's proprietary MASTER KEYS.
+
+   If you get the error popup "Can not retrieve list of readers", its because you need the OmniKey 5xxx
+   Reader for this software to correctly operate. Plug in the Reader, then execute the program.
+
+   If you get the error "scardsyn.dll is missing", there is a copy in the lib/ folder, copy this dll
+   to the same location as the compiled executable.
+
+2. Why did you remove the MASTER KEYS?
+   HID Global are rather protective over their MASTER KEYS, they dont want them publically published.
+
+3. Where can I get the MASTER KEYS? 
+   Unfortunately, your going to have to either hack a RW300 Rev A Reader, or Sign HID Globals' NDA.
+
+4. Can you Give me the MASTER KEYS, or can I buy them from you?
+   Simple answer: NO.
+
+5. I have the MASTER KEYS where do I put them in the code?
+   Theres a place holder for the keys in uMain.cpp, simply replace the null placeholder with the MASTER KEYS
+   and recompile.
+
+6. How can I write to iClass Cards?
+   This software only reads the cards, and dissects fields to help you get a better understanding of the 
+   formatting and structure.  Currently the software has no write operations.

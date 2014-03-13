@@ -1,0 +1,19 @@
+HOWTO
+=======
+Once all the MASTER Keys have been added and the software has been compiled; you can read & decrypt iClass Cards.
+
+You also need an Omnikey 5xxx Reader.
+
+Plug in the Reader.
+Execute CopyClass.exe
+Enter Authentication Key (or choose default key for blank cards)
+Click Authenticate
+If authentication was sucessfull; Either:
+        1) Read Card
+        2) Choose Book Number
+Or try another Authentication Key.
+
+Keys
+-----
+Kd = Debit Key (Application 1)
+Kc = Credit Key (Application 2)
